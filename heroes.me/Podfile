@@ -1,0 +1,11 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'heroes.me' do
+	pod 'Alamofire', '~> 4.4.0'
+	pod 'SDWebImage', '~> 4.0.0'
+end
+
+target 'heroes.meTests' do
+	pod 'SDWebImage', '~> 4.0.0'
+end
